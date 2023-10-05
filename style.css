@@ -77,3 +77,10 @@ footer a {
    border-bottom: 2px solid;
    border-bottom-color: red;
 }
+
+@media (max-width: 600px) {
+   .box {
+      width: 100%;
+      margin: 1rem;
+   }
+}
