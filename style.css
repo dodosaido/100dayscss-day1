@@ -78,9 +78,13 @@ footer a {
    border-bottom-color: red;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
    .box {
       width: 100%;
       margin: 1rem;
+   }
+
+   footer a {
+      font-size: 1.2rem;
    }
 }
