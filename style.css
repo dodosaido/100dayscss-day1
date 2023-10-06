@@ -81,10 +81,16 @@ footer a {
 @media (max-width: 767px) {
    .box {
       width: 100%;
-      margin: 1rem;
+      margin-inline: 1rem;
    }
 
    footer a {
       font-size: 1.2rem;
+   }
+}
+
+@media (orientation: landscape) {
+   .box {
+      margin-block: 1rem;
    }
 }
