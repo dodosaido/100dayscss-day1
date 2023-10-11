@@ -57,6 +57,8 @@ body {
 .box span:nth-child(2) {
    font-size: 4rem;
    letter-spacing: 0px;
+   text-decoration-line: line-through;
+   text-decoration-thickness: 12px;
 }
 
 .box span:nth-child(3) {
@@ -85,12 +87,12 @@ footer a {
    }
 
    footer a {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
    }
 }
 
 @media (orientation: landscape) {
    .box {
-      margin-block: 1rem;
+      margin-block: 4rem 2rem;
    }
 }
